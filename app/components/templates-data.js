@@ -1,98 +1,98 @@
 export const templates = [
   {
     url: "https://personalbranding1.vercel.app",
-    name: "Clean",
-    description: "Desain bersih dan elegan untuk profesional kreatif dengan tata letak simpel",
+    name: "Nova",
+    description: "Aurora glass gelap untuk creative technologist — avatar ring berpendar & link bernomor",
     image: "/images/pb1.png",
-    category: "Profesional",
-    tags: ["Minimal", "Elegan", "Portfolio"]
+    category: "Kreator",
+    tags: ["Dark", "Glass", "Premium"]
   },
   {
     url: "https://personalbranding2.vercel.app",
-    name: "Agencia",
-    description: "Tampilkan karya Anda dengan galeri visual yang memukau dan interaktif",
+    name: "Atlas",
+    description: "Kartu nama split-screen bergaya Swiss untuk studio & konsultan — index 01–05 yang tegas",
     image: "/images/pb2.png",
-    category: "Kreatif",
-    tags: ["Galeri", "Interaktif", "Portfolio"]
+    category: "Bisnis",
+    tags: ["Swiss", "Studio", "Minimal"]
   },
   {
     url: "https://personalbranding3.vercel.app",
-    name: "Playfull",
-    description: "Template profesional untuk bisnis dengan penekanan pada konversi tinggi",
+    name: "Mellow",
+    description: "Papan stiker pastel untuk ilustrator — pill miring, lembut, dan menggemaskan",
     image: "/images/pb3.png",
-    category: "Bisnis",
-    tags: ["Perusahaan", "Konversi", "Profesional"]
+    category: "Kreator",
+    tags: ["Pastel", "Playful", "Ilustrasi"]
   },
   {
     url: "https://personalbranding4.vercel.app",
-    name: "Futuristic",
-    description: "Template energik untuk influencer dengan integrasi media sosial lengkap",
+    name: "Pulse",
+    description: "Baris link tipografi raksasa neon untuk motion designer — berdenyut saat disentuh",
     image: "/images/pb4.png",
-    category: "Media Sosial",
-    tags: ["Sosial Media", "Viral", "Personal Branding"]
+    category: "Kreator",
+    tags: ["Neon", "Motion", "Bold"]
   },
   {
     url: "https://personalbranding5.vercel.app",
-    name: "Bisnisku",
-    description: "Template romantis untuk pasangan yang berbagi momen spesial mereka",
+    name: "Vendra",
+    description: "Etalase kedai kopi — status buka real-time, menu favorit, dan tombol pesan GoFood/WA",
     image: "/images/pb5.png",
-    category: "Acara",
-    tags: ["Pernikahan", "Acara", "Romantis"]
+    category: "Bisnis",
+    tags: ["UMKM", "Kafe", "Storefront"]
   },
   {
     url: "https://personalbranding6.vercel.app",
-    name: "Retro",
-    description: "Solusi lengkap untuk startup dengan fitur produk dan tim yang modern",
+    name: "Disko",
+    description: "Poster gig memphis untuk band & DJ — equalizer beranimasi dan kartu warna pop",
     image: "/images/pb6.png",
-    category: "Bisnis",
-    tags: ["Startup", "Teknologi", "Inovatif"]
+    category: "Musik",
+    tags: ["Memphis", "Band", "Retro-pop"]
   },
   {
     url: "https://personalbranding7.vercel.app",
-    name: "Persona",
-    description: "Bagikan petualangan Anda dengan peta interaktif dan galeri perjalanan",
+    name: "Zen",
+    description: "Ruang teduh serif untuk coach & mindfulness — enso bernapas dan daftar numeral romawi",
     image: "/images/pb7.png",
-    category: "Travel",
-    tags: ["Petualangan", "Peta", "Travel"]
+    category: "Lifestyle",
+    tags: ["Minimal", "Serif", "Tenang"]
   },
   {
     url: "https://personalbranding8.vercel.app",
-    name: "Matrix",
-    description: "Template dinamis untuk musisi dengan pemutar musik built-in yang elegan",
+    name: "Cipher",
+    description: "Terminal hacker sungguhan — whoami mengetik sendiri dan tautan bergaya ls -la",
     image: "/images/pb8.png",
-    category: "Musik",
-    tags: ["Musik", "Artis", "Audio"]
+    category: "Teknologi",
+    tags: ["Terminal", "CRT", "Developer"]
   },
   {
     url: "https://personalbranding9.vercel.app",
-    name: "Cutie",
-    description: "Template energik untuk pelatih kebugaran dengan jadwal kelas online",
+    name: "Vinyl",
+    description: "Piringan hitam berputar untuk musisi — now playing bar dan tracklist Side A/B",
     image: "/images/pb9.png",
-    category: "Kesehatan",
-    tags: ["Kebugaran", "Kesehatan", "Olahraga"]
+    category: "Musik",
+    tags: ["Musisi", "Vinyl", "Elegan"]
   },
   {
     url: "https://personalbranding10.vercel.app",
-    name: "Angkringan",
-    description: "Template hangat untuk kafe dengan menu digital dan sistem reservasi",
+    name: "Arsip",
+    description: "Surat vintage untuk penulis — kertas bergaris, perangko, stempel, dan lampiran",
     image: "/images/pb10.png",
-    category: "Kuliner",
-    tags: ["Makanan", "Minuman", "Kafe"]
+    category: "Kreator",
+    tags: ["Vintage", "Typewriter", "Penulis"]
   },
   {
     url: "https://personalbranding11.vercel.app",
     name: "Jajan",
-    description: "Galeri foto fullscreen dengan lightbox dan efek zoom yang memukau",
+    description: "Papan menu warung — harga bertitik-titik, badge LARIS, dan papan BUKA bergoyang",
     image: "/images/pb11.png",
-    category: "Fotografi",
-    tags: ["Foto", "Galeri", "Visual"]
+    category: "Bisnis",
+    tags: ["Kuliner", "UMKM", "Ceria"]
   },
   {
     url: "https://personalbranding12.vercel.app",
-    name: "SKT",
-    description: "Template ramah lingkungan dengan nuansa alam dan elemen organik",
+    name: "Kaset",
+    description: "Mixtape analog untuk radio & kolektif musik — reel berputar dengan link Side A/B",
     image: "/images/pb12.png",
-    category: "Lifestyle",
-    tags: ["Alam", "Organik", "Hijau"]
+    category: "Musik",
+    tags: ["Analog", "Radio", "70s"]
   }
 ];

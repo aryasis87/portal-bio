@@ -1,19 +1,19 @@
 import './globals.css';
-// import Header from '../components/Header';
-// import Footer from '../components/Footer';
+import { Unbounded, Inter } from 'next/font/google';
+
+const unbounded = Unbounded({ subsets: ['latin'], variable: '--font-unbounded', weight: ['400', '600', '800'] });
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata = {
-  title: 'Link in Bio Templates by Sanzy',
-  description: 'Koleksi template link in bio premium untuk personal branding dan bisnis.',
+  title: 'PortalBio — Koleksi Template Link in Bio',
+  description: 'PortalBio: 12 template link in bio dengan karakter unik — untuk kreator, musisi, bisnis, hingga developer.',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
-      <body className="bg-white text-gray-900">
-        {/* <Header /> */}
+      <body className={`${unbounded.variable} ${inter.variable} antialiased`}>
         <main>{children}</main>
-        {/* <Footer /> */}
       </body>
     </html>
   );
