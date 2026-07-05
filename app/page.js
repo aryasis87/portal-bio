@@ -23,7 +23,7 @@ export default function PortalBio() {
       {/* Navbar */}
       <header className="sticky top-0 z-40 border-b-2 border-ink bg-kertas/90 backdrop-blur-xl">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-          <a href="#" className="flex items-center gap-2 font-display text-lg font-extrabold">
+          <a href="/" className="flex items-center gap-2 font-display text-lg font-extrabold">
             <span className="grid h-9 w-9 place-items-center rounded-xl border-2 border-ink bg-ungu text-white shadow-[3px_3px_0_var(--color-ink)]"><AtSign size={18} /></span>
             PortalBio
           </a>

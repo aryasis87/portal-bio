@@ -1,6 +1,6 @@
 export const templates = [
   {
-    url: "https://personalbranding1.vercel.app",
+    url: "https://nova.pintuweb.com",
     name: "Nova",
     description: "Aurora glass gelap untuk creative technologist — avatar ring berpendar & link bernomor",
     image: "/images/pb1.png",
@@ -8,7 +8,7 @@ export const templates = [
     tags: ["Dark", "Glass", "Premium"]
   },
   {
-    url: "https://personalbranding2.vercel.app",
+    url: "https://atlas.pintuweb.com",
     name: "Atlas",
     description: "Kartu nama split-screen bergaya Swiss untuk studio & konsultan — index 01–05 yang tegas",
     image: "/images/pb2.png",
@@ -16,7 +16,7 @@ export const templates = [
     tags: ["Swiss", "Studio", "Minimal"]
   },
   {
-    url: "https://personalbranding3.vercel.app",
+    url: "https://mellow.pintuweb.com",
     name: "Mellow",
     description: "Papan stiker pastel untuk ilustrator — pill miring, lembut, dan menggemaskan",
     image: "/images/pb3.png",
@@ -24,7 +24,7 @@ export const templates = [
     tags: ["Pastel", "Playful", "Ilustrasi"]
   },
   {
-    url: "https://personalbranding4.vercel.app",
+    url: "https://pulse.pintuweb.com",
     name: "Pulse",
     description: "Baris link tipografi raksasa neon untuk motion designer — berdenyut saat disentuh",
     image: "/images/pb4.png",
@@ -32,7 +32,7 @@ export const templates = [
     tags: ["Neon", "Motion", "Bold"]
   },
   {
-    url: "https://personalbranding5.vercel.app",
+    url: "https://vendra.pintuweb.com",
     name: "Vendra",
     description: "Etalase kedai kopi — status buka real-time, menu favorit, dan tombol pesan GoFood/WA",
     image: "/images/pb5.png",
@@ -40,7 +40,7 @@ export const templates = [
     tags: ["UMKM", "Kafe", "Storefront"]
   },
   {
-    url: "https://personalbranding6.vercel.app",
+    url: "https://disko.pintuweb.com",
     name: "Disko",
     description: "Poster gig memphis untuk band & DJ — equalizer beranimasi dan kartu warna pop",
     image: "/images/pb6.png",
@@ -48,7 +48,7 @@ export const templates = [
     tags: ["Memphis", "Band", "Retro-pop"]
   },
   {
-    url: "https://personalbranding7.vercel.app",
+    url: "https://zen.pintuweb.com",
     name: "Zen",
     description: "Ruang teduh serif untuk coach & mindfulness — enso bernapas dan daftar numeral romawi",
     image: "/images/pb7.png",
@@ -56,7 +56,7 @@ export const templates = [
     tags: ["Minimal", "Serif", "Tenang"]
   },
   {
-    url: "https://personalbranding8.vercel.app",
+    url: "https://cipher.pintuweb.com",
     name: "Cipher",
     description: "Terminal hacker sungguhan — whoami mengetik sendiri dan tautan bergaya ls -la",
     image: "/images/pb8.png",
@@ -64,7 +64,7 @@ export const templates = [
     tags: ["Terminal", "CRT", "Developer"]
   },
   {
-    url: "https://personalbranding9.vercel.app",
+    url: "https://vinyl.pintuweb.com",
     name: "Vinyl",
     description: "Piringan hitam berputar untuk musisi — now playing bar dan tracklist Side A/B",
     image: "/images/pb9.png",
@@ -72,7 +72,7 @@ export const templates = [
     tags: ["Musisi", "Vinyl", "Elegan"]
   },
   {
-    url: "https://personalbranding10.vercel.app",
+    url: "https://arsip.pintuweb.com",
     name: "Arsip",
     description: "Surat vintage untuk penulis — kertas bergaris, perangko, stempel, dan lampiran",
     image: "/images/pb10.png",
@@ -80,7 +80,7 @@ export const templates = [
     tags: ["Vintage", "Typewriter", "Penulis"]
   },
   {
-    url: "https://personalbranding11.vercel.app",
+    url: "https://jajan.pintuweb.com",
     name: "Jajan",
     description: "Papan menu warung — harga bertitik-titik, badge LARIS, dan papan BUKA bergoyang",
     image: "/images/pb11.png",
@@ -88,7 +88,7 @@ export const templates = [
     tags: ["Kuliner", "UMKM", "Ceria"]
   },
   {
-    url: "https://personalbranding12.vercel.app",
+    url: "https://kaset.pintuweb.com",
     name: "Kaset",
     description: "Mixtape analog untuk radio & kolektif musik — reel berputar dengan link Side A/B",
     image: "/images/pb12.png",
