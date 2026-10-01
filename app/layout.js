@@ -40,8 +40,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="id">
-      <body className={`${unbounded.variable} ${inter.variable} antialiased`}>
+    <html lang="id" className={`${unbounded.variable} ${inter.variable}`}>
+      <body className="antialiased">
         <main>{children}</main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(__jsonld) }} />
         </body>

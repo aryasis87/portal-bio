@@ -146,9 +146,10 @@ export default function PortalBio() {
                       <span className="font-display text-xs text-ungu">@{t.name.toLowerCase()}</span>
                     </div>
                     <p className="mt-1.5 text-sm leading-relaxed text-mutedx">{t.description}</p>
+                    <p className="mt-2 font-mono text-[11px] text-ink/70">/ {t.halaman.map((h) => <span key={h}> · {h}</span>)}</p>
                     <div className="mt-3 flex flex-wrap items-center gap-1.5">
                       {t.tags.map((tag) => (
-                        <span key={tag} className="rounded-full bg-ink/5 px-2.5 py-1 text-[11px] font-semibold text-ink/60">{tag}</span>
+                        <span key={tag} className="rounded-full bg-ink/5 px-2.5 py-1 text-[11px] font-semibold text-ink/75">{tag}</span>
                       ))}
                     </div>
                     <a href={t.url} target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-ungu underline-offset-4 hover:underline">
@@ -287,7 +288,7 @@ export default function PortalBio() {
             </ul>
           </div>
         </div>
-        <p className="mt-10 border-t border-kertas/10 pt-5 text-center text-xs text-kertas/40">
+        <p className="mt-10 border-t border-kertas/10 pt-5 text-center text-xs text-kertas/65">
           © {new Date().getFullYear()} PortalBio · bagian dari PintuWeb — 12 template, satu kamu.
         </p>
       </footer>
