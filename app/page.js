@@ -17,7 +17,7 @@ const KENAPA = [
 const TANYA = [
   { q: 'Apa bedanya dengan Linktree gratisan?', a: 'Linktree membuat semua orang tampak sama. Di sini bio-mu punya kepribadian — desain khusus yang mengikuti gayamu, tanpa logo pihak ketiga, tanpa batasan fitur, dan tanpa biaya langganan bulanan.' },
   { q: 'Bisakah warna dan isinya diganti sesuai brand-ku?', a: 'Bisa, semuanya: warna, foto, urutan tautan, ikon sosial, sampai teks sapaan. Template hanyalah titik awal — hasil akhirnya 100% kamu.' },
-  { q: 'Berapa lama sampai bisa dipakai?', a: 'Umumnya online dalam satu hari kerja setelah kamu kirim isi tautan dan foto. Link langsung siap ditempel di semua bio sosial mediamu.' },
+  { q: 'Berapa lama sampai bisa dipakai?', a: 'Tergantung kelengkapan isi tautan dan foto yang kamu kirim — estimasi waktunya kami sampaikan lewat WhatsApp sebelum mulai. Setelah online, link langsung siap ditempel di semua bio sosial mediamu.' },
   { q: 'Apakah bisa menambah tautan sendiri nanti?', a: 'Bisa. Kamu mendapat akses penuh, plus panduan singkat cara menambah atau mengubah tautan. Kalau sibuk, kirim WhatsApp saja — kami bantu ubah gratis.' },
 ];
 
@@ -207,7 +207,7 @@ export default function PortalBio() {
                 transition={{ delay: i * 0.1, duration: 0.5 }}
                 className="relative rounded-3xl border-2 border-ink bg-kertas p-7 shadow-[5px_5px_0_var(--color-ink)]"
               >
-                <span className="absolute right-6 top-5 font-display text-4xl font-extrabold text-ink/10">{l.no}</span>
+                <span data-no={l.no} className="absolute right-6 top-5 font-display text-4xl font-extrabold text-ink/10 before:content-[attr(data-no)]" aria-hidden="true" />
                 <span className="grid h-12 w-12 place-items-center rounded-2xl border-2 border-ink bg-kuningx"><l.icon size={22} /></span>
                 <h3 className="mt-4 font-display text-lg font-semibold">{l.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-mutedx">{l.desc}</p>
@@ -284,7 +284,7 @@ export default function PortalBio() {
             <p className="font-display text-xs font-bold uppercase tracking-widest text-kuningx">Hubungi</p>
             <ul className="mt-3 space-y-2">
               <li><a href={WA} target="_blank" rel="noopener noreferrer" className="transition hover:text-kertas">WhatsApp +62 813 3990 8765</a></li>
-              <li><a href="https://pintuweb.com" target="_blank" rel="noopener noreferrer" className="transition hover:text-kertas">pintuweb.com</a></li>
+              <li><a href="https://www.pintuweb.com" target="_blank" rel="noopener noreferrer" className="transition hover:text-kertas">pintuweb.com</a></li>
             </ul>
           </div>
         </div>

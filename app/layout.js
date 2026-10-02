@@ -4,7 +4,7 @@ import { Unbounded, Inter } from 'next/font/google';
 const unbounded = Unbounded({ subsets: ['latin'], variable: '--font-unbounded', weight: ['400', '600', '800'] });
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
-const __jsonld = {"@context":"https://schema.org","@type":"CollectionPage","name":"PortalBio","description":"Koleksi 12 template link in bio","url":"https://portal-bio-neon.vercel.app","isPartOf":{"@type":"WebSite","name":"PintuWeb","url":"https://pintuweb.com"}};
+const __jsonld = {"@context":"https://schema.org","@type":"CollectionPage","name":"PortalBio","description":"Koleksi 12 template link in bio","url":"https://portal-bio-neon.vercel.app","isPartOf":{"@type":"WebSite","name":"PintuWeb","url":"https://www.pintuweb.com"}};
 
 export const metadata = {
   metadataBase: new URL("https://portal-bio-neon.vercel.app"),
