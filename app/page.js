@@ -148,6 +148,7 @@ export default function PortalBio() {
                     <p className="mt-1.5 text-sm leading-relaxed text-mutedx">{t.description}</p>
                     <p className="mt-2 font-mono text-[11px] text-ink/70">/ {t.halaman.map((h) => <span key={h}> · {h}</span>)}</p>
                     <div className="mt-3 flex flex-wrap items-center gap-1.5">
+                      {t.terjual > 0 && <span className="rounded-full bg-ungu px-2.5 py-1 text-[11px] font-bold text-white">{t.terjual} terjual</span>}
                       {t.tags.map((tag) => (
                         <span key={tag} className="rounded-full bg-ink/5 px-2.5 py-1 text-[11px] font-semibold text-ink/75">{tag}</span>
                       ))}
