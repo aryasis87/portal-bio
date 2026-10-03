@@ -17,7 +17,8 @@ const KENAPA = [
 const TANYA = [
   { q: 'Apa bedanya dengan Linktree gratisan?', a: 'Linktree membuat semua orang tampak sama. Di sini bio-mu punya kepribadian — desain khusus yang mengikuti gayamu, tanpa logo pihak ketiga, tanpa batasan fitur, dan tanpa biaya langganan bulanan.' },
   { q: 'Bisakah warna dan isinya diganti sesuai brand-ku?', a: 'Bisa, semuanya: warna, foto, urutan tautan, ikon sosial, sampai teks sapaan. Template hanyalah titik awal — hasil akhirnya 100% kamu.' },
-  { q: 'Berapa lama sampai bisa dipakai?', a: 'Tergantung kelengkapan isi tautan dan foto yang kamu kirim — estimasi waktunya kami sampaikan lewat WhatsApp sebelum mulai. Setelah online, link langsung siap ditempel di semua bio sosial mediamu.' },
+  { q: 'Berapa lama sampai bisa dipakai?', a: 'Biasanya 1–3 hari kerja setelah isi tautan dan foto lengkap. Setelah online, link langsung bisa kamu pasang di bio Instagram, TikTok, atau WhatsApp.' },
+  { q: 'Berapa biayanya?', a: 'Paket Link in Bio PintuWeb Rp250 ribu–Rp750 ribu untuk satu halaman dengan satu fitur khusus (menu, pre-order, jadwal, atau katalog), sudah termasuk domain .my.id/.biz.id dan hosting tahun pertama. Perpanjangan mulai tahun kedua sekitar Rp100–150 ribu per tahun.' },
   { q: 'Apakah bisa menambah tautan sendiri nanti?', a: 'Bisa. Kamu mendapat akses penuh, plus panduan singkat cara menambah atau mengubah tautan. Kalau sibuk, kirim WhatsApp saja — kami bantu ubah gratis.' },
 ];
 
