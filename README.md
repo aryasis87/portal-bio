@@ -2,7 +2,7 @@
 
 PortalBio: 12 template link in bio dengan karakter unik — untuk kreator, musisi, bisnis, hingga developer.
 
-**Demo live:** https://portal-bio-neon.vercel.app
+**Demo live:** https://www.pintuweb.com/link-in-bio
 
 ![Tangkapan layar PortalBio](public/og.jpg)
 
