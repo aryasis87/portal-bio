@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { AtSign, ArrowDown, ArrowUpRight, MessageCircle, MousePointerClick, Rocket, Link2, Palette, Smartphone, BarChart3, ChevronDown } from 'lucide-react';
 import { templates } from './components/templates-data';
 
-const WA = 'https://wa.me/6281339908765?text=Halo%2C%20saya%20tertarik%20template%20link%20in%20bio%20di%20PortalBio';
+const WA = 'https://wa.me/6285190931399?text=Halo%2C%20saya%20tertarik%20template%20link%20in%20bio%20di%20PortalBio';
 
 const KENAPA = [
   { icon: Link2, title: 'Satu link untuk semua', desc: 'IG, TikTok, YouTube, toko, portofolio — muat semuanya tanpa ganti-ganti bio.' },
@@ -18,7 +18,7 @@ const TANYA = [
   { q: 'Apa bedanya dengan Linktree gratisan?', a: 'Linktree membuat semua orang tampak sama. Di sini bio-mu punya kepribadian — desain khusus yang mengikuti gayamu, tanpa logo pihak ketiga, tanpa batasan fitur, dan tanpa biaya langganan bulanan.' },
   { q: 'Bisakah warna dan isinya diganti sesuai brand-ku?', a: 'Bisa, semuanya: warna, foto, urutan tautan, ikon sosial, sampai teks sapaan. Template hanyalah titik awal — hasil akhirnya 100% kamu.' },
   { q: 'Berapa lama sampai bisa dipakai?', a: 'Biasanya 1–3 hari kerja setelah isi tautan dan foto lengkap. Setelah online, link langsung bisa kamu pasang di bio Instagram, TikTok, atau WhatsApp.' },
-  { q: 'Berapa biayanya?', a: 'Paket Link in Bio PintuWeb Rp250 ribu–Rp750 ribu untuk satu halaman dengan satu fitur khusus (menu, pre-order, jadwal, atau katalog), sudah termasuk domain .my.id/.biz.id dan hosting tahun pertama. Perpanjangan mulai tahun kedua sekitar Rp100–150 ribu per tahun.' },
+  { q: 'Berapa biayanya?', a: 'Paket Link in Bio PintuWeb Rp125 ribu–Rp375 ribu untuk satu halaman dengan satu fitur khusus (menu, pre-order, jadwal, atau katalog), sudah termasuk domain .my.id/.biz.id dan hosting tahun pertama. Perpanjangan mulai tahun kedua sekitar Rp100–150 ribu per tahun.' },
   { q: 'Apakah bisa menambah tautan sendiri nanti?', a: 'Bisa. Kamu mendapat akses penuh, plus panduan singkat cara menambah atau mengubah tautan. Kalau sibuk, kirim WhatsApp saja — kami bantu ubah gratis.' },
 ];
 
@@ -293,7 +293,7 @@ export default function PortalBio() {
           <div className="text-sm">
             <p className="font-display text-xs font-bold uppercase tracking-widest text-kuningx">Hubungi</p>
             <ul className="mt-3 space-y-2">
-              <li><a href={WA} target="_blank" rel="noopener noreferrer" className="transition hover:text-kertas">WhatsApp +62 813 3990 8765</a></li>
+              <li><a href={WA} target="_blank" rel="noopener noreferrer" className="transition hover:text-kertas">WhatsApp +62 851 9093 1399</a></li>
               <li><a href="https://www.pintuweb.com" className="transition hover:text-kertas">pintuweb.com</a></li>
             </ul>
           </div>
